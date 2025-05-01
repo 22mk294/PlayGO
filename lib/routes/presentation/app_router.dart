@@ -11,19 +11,19 @@ class AppRouter {
     routes: [
       GoRoute(
         path: '/',
-        pageBuilder: (context, state) => _fadeTransition(const HomeScreen()),
+        pageBuilder: (context, state) => _fadeTransition(HomeScreen()),
       ),
       GoRoute(
         path: '/audio',
-        pageBuilder: (context, state) => _fadeTransition(const AudioPlayerScreen()),
+        pageBuilder: (context, state) => _fadeTransition(AudioPlayerScreen()),
       ),
       GoRoute(
         path: '/video',
-        pageBuilder: (context, state) => _fadeTransition(const VideoPlayerScreen()),
+        pageBuilder: (context, state) => _fadeTransition(VideoPlayerScreen()),
       ),
       GoRoute(
         path: '/settings',
-        pageBuilder: (context, state) => _fadeTransition(const SettingsScreen()),
+        pageBuilder: (context, state) => _fadeTransition(SettingsScreen()),
       ),
     ],
   );

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppTopBar extends StatelessWidget implements PreferredSizeWidget {
-  const AppTopBar({super.key});
+  final String title; // ← titre dynamique
+
+  const AppTopBar({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: const Text('PlayGo'),
+      title: Text('PlayGo - $title'),
       backgroundColor: Colors.blue,
       foregroundColor: Colors.white,
     );

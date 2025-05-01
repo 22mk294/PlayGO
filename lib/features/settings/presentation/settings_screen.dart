@@ -22,7 +22,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const AppTopBar(),
+      appBar: const AppTopBar(title: 'Parametre',),
       body: const Center(child: Text("Paramètres à venir...")),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       floatingActionButton: AddMediaButton(
