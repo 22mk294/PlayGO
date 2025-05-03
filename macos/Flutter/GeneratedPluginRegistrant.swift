@@ -5,25 +5,6 @@
 import FlutterMacOS
 import Foundation
 
-<<<<<<< HEAD
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-=======
-import audio_session
-import audioplayers_darwin
-import file_picker
-import just_audio
-import path_provider_foundation
-import shared_preferences_foundation
-import video_player_avfoundation
-
-func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  AudioSessionPlugin.register(with: registry.registrar(forPlugin: "AudioSessionPlugin"))
-  AudioplayersDarwinPlugin.register(with: registry.registrar(forPlugin: "AudioplayersDarwinPlugin"))
-  FilePickerPlugin.register(with: registry.registrar(forPlugin: "FilePickerPlugin"))
-  JustAudioPlugin.register(with: registry.registrar(forPlugin: "JustAudioPlugin"))
-  PathProviderPlugin.register(with: registry.registrar(forPlugin: "PathProviderPlugin"))
-  SharedPreferencesPlugin.register(with: registry.registrar(forPlugin: "SharedPreferencesPlugin"))
-  FVPVideoPlayerPlugin.register(with: registry.registrar(forPlugin: "FVPVideoPlayerPlugin"))
->>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 }

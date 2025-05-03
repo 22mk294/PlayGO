@@ -1,14 +1,12 @@
-// Importation des outils UI et des composants externes
 import 'package:flutter/material.dart';
 import '../components/HeaderBar.dart'; // Barre d'application avec recherche
 import '../components/VideoListView.dart'; // Liste des vidéos
+import '../components/MediaAddButton.dart'; // Bouton d'ajout média
 
-// Widget VideoScreen (écran des vidéos)
 class VideoScreen extends StatelessWidget {
-  final String searchQuery; // Texte de recherche actif
-  final void Function(String) onSearchChanged; // Callback pour mettre à jour la recherche
+  final String searchQuery;
+  final void Function(String) onSearchChanged;
 
-  // Constructeur du widget
   const VideoScreen({
     super.key,
     required this.searchQuery,
@@ -20,14 +18,13 @@ class VideoScreen extends StatelessWidget {
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(60),
-        child: HeaderBar( // Barre d'application avec recherche dynamique
+        child: HeaderBar(
           title: "Playgo",
           onSearchChanged: onSearchChanged,
         ),
       ),
       body: Column(
         children: [
-          // Titre "Vidéos"
           const Padding(
             padding: EdgeInsets.all(16),
             child: Text(
@@ -35,9 +32,21 @@ class VideoScreen extends StatelessWidget {
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ),
-          // Affichage de la liste des vidéos filtrées
           VideoListView(query: searchQuery),
         ],
+      ),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 64.0), // Décalage vers le haut
+        child: Align(
+          alignment: Alignment.bottomRight,
+          child: MediaAddButton(
+            onPressed: () {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(content: Text("Ajout d'une vidéo déclenché")),
+              );
+            },
+          ),
+        ),
       ),
     );
   }
