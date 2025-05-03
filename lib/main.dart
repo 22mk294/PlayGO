@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Importation des outils UI et des fichiers nécessaires
 import 'package:flutter/material.dart';
 import 'themes/appTheme.dart'; // Fichier contenant les thèmes personnalisés
@@ -38,3 +39,18 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+=======
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'app.dart';
+import 'features/home/logic/media_provider.dart';
+
+void main() {
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => MediaProvider(),
+      child: const PlayGoApp(),
+    ),
+  );
+}
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda

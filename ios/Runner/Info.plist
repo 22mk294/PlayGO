@@ -28,6 +28,14 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+<<<<<<< HEAD
+=======
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>Cette app a besoin d’accéder à la bibliothèque multimédia.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Cette app a besoin d’accéder au micro.</string>
+
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

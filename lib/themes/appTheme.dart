@@ -20,7 +20,7 @@ class AppThemes {
     scaffoldBackgroundColor: Colors.black, // Fond noir
     primaryColor: Colors.grey[900], // Couleur principale gris foncé
     brightness: Brightness.dark, // Mode sombre activé
-    iconTheme: const IconThemeData(color: Colors.white), // Icônes blanches
+    iconTheme: const IconThemeData(color: Colors.black), // Icônes blanches
     textTheme: const TextTheme( // Couleurs du texte
       bodyLarge: TextStyle(color: Colors.white), // Texte principal blanc
       bodyMedium: TextStyle(color: Colors.white70), // Texte secondaire blanc légèrement opaque

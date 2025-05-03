@@ -89,11 +89,19 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
+<<<<<<< HEAD
             VALUE "CompanyName", "com.example" "\0"
             VALUE "FileDescription", "playgo" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "playgo" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+=======
+            VALUE "CompanyName", "com.playgo" "\0"
+            VALUE "FileDescription", "playgo" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "playgo" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.playgo. All rights reserved." "\0"
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
             VALUE "OriginalFilename", "playgo.exe" "\0"
             VALUE "ProductName", "playgo" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

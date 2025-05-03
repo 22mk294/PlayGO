@@ -7,7 +7,11 @@ project(runner LANGUAGES CXX)
 set(BINARY_NAME "playgo")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
+<<<<<<< HEAD
 set(APPLICATION_ID "com.example.playgo")
+=======
+set(APPLICATION_ID "com.playgo.playgo")
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

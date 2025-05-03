@@ -8,7 +8,14 @@
 PRODUCT_NAME = playgo
 
 // The application's bundle identifier
+<<<<<<< HEAD
 PRODUCT_BUNDLE_IDENTIFIER = com.example.playgo
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 com.example. All rights reserved.
+=======
+PRODUCT_BUNDLE_IDENTIFIER = com.playgo.playgo
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2025 com.playgo. All rights reserved.
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda

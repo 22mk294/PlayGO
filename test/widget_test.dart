@@ -7,13 +7,21 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+<<<<<<< HEAD
+=======
+import 'package:playgo/app.dart';
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 
 import 'package:playgo/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+<<<<<<< HEAD
     await tester.pumpWidget(const MyApp());
+=======
+    await tester.pumpWidget(const PlayGoApp());
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

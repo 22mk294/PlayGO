@@ -30,8 +30,30 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
   font_awesome_flutter: ^10.6.0
   material_symbols_icons: ^4.0.0
+=======
+
+
+
+  # Navigation moderne
+  go_router: ^13.2.0
+
+  # UI responsive
+  flutter_screenutil: ^5.9.0
+  # Autres (optionnels mais utiles)
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0+1
+  file_picker: ^10.1.2
+  just_audio: ^0.9.36
+  audio_session: ^0.1.10
+  video_player: ^2.7.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 
 
 
@@ -43,12 +65,15 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+<<<<<<< HEAD
   flutter_launcher_icons: ^0.14.3
 flutter_launcher_icons:
   android: true
   ios: true
   image_path : "lib/assets/icon/playGoIconOrange.png"
 
+=======
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -63,7 +88,10 @@ flutter_launcher_icons:
 # The following section is specific to Flutter packages.
 flutter:
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d23c3116b7440219ef049606fa97fec6183efda
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
